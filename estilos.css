@@ -1,0 +1,116 @@
+.reloj {
+	padding: 100px;
+	background-image: url("img/reloj2.jpg");
+	width: 350px;
+	height: 350px;
+	border-radius: 370px;
+	background-color: #ededed;
+	background-size: 100%;
+	border: 5px solid black;
+	display: flex;
+	margin: auto;
+}
+
+.reloj img {
+	position: relative;
+	height: 350px;
+	transition: all 0.5s
+}
+
+
+.reloj #minutos   {
+	position: absolute;
+}
+.reloj #segundos {
+	position: absolute;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex .contenido {
+	background-color: #fff;
+	box-shadow: 0px 0px 20px #ccc;
+	margin: 22px;
+	padding: 32px;
+	flex: 4 4;
+}
+
+.contenido p {
+	font-size: 50px;
+	color: rgb(163, 7, 7);
+	position: absolute;
+    margin: 0 auto;
+    left: 46%;
+    top:70%;
+}
+.flame-time img{
+    width: 100px;
+    height: 100px;
+
+}
+
+#Aries{
+    position: absolute;
+    left: 46.5%;
+    top: 50%;
+}
+#Tauro{
+    position: absolute;
+    left: 46.5%;
+    top: 6%;
+}
+#Geminis{
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+#Cancer{
+    position: absolute;
+    left: 37%;
+    top: 40%;
+}
+
+#Leo{
+    position: absolute;
+    left: 52%;
+    top: 9%;
+}
+#Virgo{
+    position: absolute;
+    left: 41%;
+    top: 9%;
+}
+#Libra{
+    position: absolute;
+    left: 41%;
+    top: 46%;
+}
+#Escorpio{
+    position: absolute;
+    left: 52%;
+    top: 46%;
+}
+#Sagitario{
+    position: absolute;
+    left: 56%;
+    top: 40%;
+}
+#Capricornio{
+    position: absolute;
+    left: 37%;
+    top: 17%;
+}
+
+#Acuario{
+    position: absolute;
+    left: 58%;
+    top: 30%;
+
+}
+#Piscis{
+    position: absolute;
+    left: 56%;
+    top: 18%;
+}
